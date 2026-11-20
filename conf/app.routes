@@ -1,3 +1,5 @@
 # microservice specific routes
 
 GET        /hello-world             uk.gov.hmrc.onlineagentauthorisations.controllers.MicroserviceHelloWorldController.hello
+
+POST       /count-agent-lists       uk.gov.hmrc.onlineagentauthorisations.controllers.AgentListsController.countAgentLists
